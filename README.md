@@ -26,5 +26,5 @@ Se a execucao falhar, verifique as etapas de `Install dependencies` e `Run tests
 
 ## Cobertura atingida pelo projeto
 
-Cobertura m�nima exigida: `70%`.
+Cobertura minima exigida: `70%`.
 Cobertura atual obtida pelo projeto: `100%`.
