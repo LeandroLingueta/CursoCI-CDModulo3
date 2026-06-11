@@ -7,7 +7,7 @@ Este repositorio contem um pequeno projeto Python com dois scripts em `src/` e t
 Instale as dependencas com:
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Como executar os testes localmente
@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Execute:
 
 ```bash
-pytest --cov=src --cov-report=term-missing --cov-fail-under=70
+python -m pytest --cov=src --cov-report=term-missing --cov-fail-under=70
 ```
 
 ## Interpretacao dos resultados no GitHub Actions
@@ -27,4 +27,4 @@ Se a execucao falhar, verifique as etapas de `Install dependencies` e `Run tests
 ## Cobertura atingida pelo projeto
 
 Cobertura minima exigida: `70%`.
-Cobertura atual obtida pelo projeto: `100%`.
+Cobertura atual obtida pelo projeto: `70%`.
